@@ -1,8 +1,7 @@
 use std::io;
 use rand::prelude::*;
-use rand::Rng;
 
-fn read_list(){
+fn read_list(name: &str) -> Vec<String> {
     loop {
         println!("Input {name}, seperated by commas:");
 
@@ -17,7 +16,7 @@ fn read_list(){
             .collect();
         
         if list.is_empty() {
-            println!("Please enter {name} again")
+            println!("Please enter {name} again");
             continue;
         }
 
@@ -26,13 +25,11 @@ fn read_list(){
     }
 }
 
-fn 
-
 fn main(){    
     let mut rng = rand::rng();
 
     let consonants = read_list("consonants");
-    let vowels = read_list("vowels")
+    let vowels = read_list("vowels");
 
     println!("Do you want finals? Type y or n");
 
@@ -45,6 +42,7 @@ fn main(){
         vec![]
     };
 
+    println!("--------");
 
     for _ in 0..5 {
         let mut word = String::new();
