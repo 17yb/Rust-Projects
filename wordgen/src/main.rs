@@ -1,6 +1,20 @@
 use std::io;
 use rand::prelude::*;
 
+fn read_number(prompt: &str) -> u32 {
+    loop {
+        println!("{prompt}");
+
+        let mut input = String::new();
+        io::stdin().read_line(&mut input).expect("Failed to read number");
+
+        match input.trim().parse() {
+            Ok(n) => return n,
+            Err(_) => println!("Please enter a whole number"),
+        }
+    }
+}
+
 fn read_list(name: &str) -> Vec<String> {
     loop {
         println!("Input {name}, seperated by commas:");
@@ -42,21 +56,42 @@ fn main(){
         vec![]
     };
 
+    let syllable_structures = read_list("syllable structures");
+
+    make_syllable(&syllable_structures, &consonants, &vowels, &finals);
+
+    let word_count = read_number("Enter the number of words");
+
     println!("--------");
 
-    for _ in 0..5 {
-        let mut word = String::new();
+    let mut word = String::new();
+
+    for _ in 0..word_count {
         let syllables = rng.random_range(2..5);
 
         for _ in 0..syllables {
-            word.push_str(consonants.choose(&mut rng).expect("Consonants was empty"));
-            word.push_str(vowels.choose(&mut rng).expect("Vowels was empty"));
-
-            if final_q.trim() == "y" {
-                let f = finals.choose(&mut rng).expect("Finals was empty");
-                word.push_str(f);
-            }
+            let mut syllable = String::new();
+            fn make_syllable()
+            word.push_str(syllable);
         }
-        println!("{}", word);
-    }   
+    }
+    println!("{}", word);
+}   
+
+
+fn make_syllable(syllable_structures: &[String], consonants: &[String], vowels: &[String], finals: &[String], rng: &mut impl Rng) -> Vec<String> {
+    let mut syllable_structure = String::new();
+
+    syllable_structure.push_str(syllable_structures.choose(&mut rng).expect("Syllable structures was empty"));
+
+    for character in syllable_structure.chars() {
+        if character = "C" {
+            syllable.push_str(consonants.choose(&mut rng).expect("Failed to read syllable"));
+        } else if character = "V" {
+            syllable.push_str(vowels.choose(&mut rng).expect("Failed to read syllable"));
+        } else if character = "F" {
+            syllable.push_str(finals.choose(&mut rng).expect("Failed to read syllable"));
+        }
+    }
+    return syllable;
 }
