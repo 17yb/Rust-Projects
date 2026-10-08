@@ -58,8 +58,6 @@ fn main(){
 
     let syllable_structures = read_list("syllable structures");
 
-    make_syllable(&syllable_structures, &consonants, &vowels, &finals);
-
     let word_count = read_number("Enter the number of words");
 
     println!("--------");
@@ -70,28 +68,31 @@ fn main(){
         let syllables = rng.random_range(2..5);
 
         for _ in 0..syllables {
-            let mut syllable = String::new();
-            fn make_syllable()
-            word.push_str(syllable);
+            let syllable = make_syllable(&syllable_structures, &consonants, &vowels, &finals, &mut rng);
+            word.push_str(&syllable);
         }
+        word.push_str("\n");
     }
     println!("{}", word);
 }   
 
 
-fn make_syllable(syllable_structures: &[String], consonants: &[String], vowels: &[String], finals: &[String], rng: &mut impl Rng) -> Vec<String> {
+fn make_syllable(syllable_structures: &[String], consonants: &[String], vowels: &[String], finals: &[String], rng: &mut impl Rng) -> String {
     let mut syllable_structure = String::new();
+    let mut text = String::new();
 
-    syllable_structure.push_str(syllable_structures.choose(&mut rng).expect("Syllable structures was empty"));
+    syllable_structure.push_str(syllable_structures.choose(rng).expect("Syllable structures was empty"));
 
     for character in syllable_structure.chars() {
-        if character = "C" {
-            syllable.push_str(consonants.choose(&mut rng).expect("Failed to read syllable"));
-        } else if character = "V" {
-            syllable.push_str(vowels.choose(&mut rng).expect("Failed to read syllable"));
-        } else if character = "F" {
-            syllable.push_str(finals.choose(&mut rng).expect("Failed to read syllable"));
+        if character == 'C' {
+            text.push_str(consonants.choose(rng).expect("Failed to read syllable"));
+        } else if character == 'V' {
+            text.push_str(vowels.choose(rng).expect("Failed to read syllable"));
+        } else if character == 'F' {
+            if let Some(f) = finals.choose(rng) {
+                text.push_str(f);
+            }
         }
     }
-    return syllable;
+    text
 }
