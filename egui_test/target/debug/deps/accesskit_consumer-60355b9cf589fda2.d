@@ -1,0 +1,10 @@
+/Users/caio/Rust-Projects/egui_test/target/debug/deps/accesskit_consumer-60355b9cf589fda2.d: /Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.38.0/src/lib.rs /Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.38.0/src/tree.rs /Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.38.0/src/node.rs /Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.38.0/src/filters.rs /Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.38.0/src/iterators.rs /Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.38.0/src/text.rs
+
+/Users/caio/Rust-Projects/egui_test/target/debug/deps/libaccesskit_consumer-60355b9cf589fda2.rmeta: /Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.38.0/src/lib.rs /Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.38.0/src/tree.rs /Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.38.0/src/node.rs /Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.38.0/src/filters.rs /Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.38.0/src/iterators.rs /Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.38.0/src/text.rs
+
+/Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.38.0/src/lib.rs:
+/Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.38.0/src/tree.rs:
+/Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.38.0/src/node.rs:
+/Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.38.0/src/filters.rs:
+/Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.38.0/src/iterators.rs:
+/Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.38.0/src/text.rs:

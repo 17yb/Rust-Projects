@@ -1,0 +1,11 @@
+/Users/caio/Rust-Projects/egui_test/target/debug/deps/peniko-57077165ac931f1a.d: /Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/peniko-0.6.1/src/lib.rs /Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/peniko-0.6.1/src/blend.rs /Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/peniko-0.6.1/src/brush.rs /Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/peniko-0.6.1/src/gradient.rs /Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/peniko-0.6.1/src/image.rs /Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/peniko-0.6.1/src/style.rs /Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/peniko-0.6.1/src/impl_bytemuck.rs
+
+/Users/caio/Rust-Projects/egui_test/target/debug/deps/libpeniko-57077165ac931f1a.rmeta: /Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/peniko-0.6.1/src/lib.rs /Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/peniko-0.6.1/src/blend.rs /Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/peniko-0.6.1/src/brush.rs /Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/peniko-0.6.1/src/gradient.rs /Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/peniko-0.6.1/src/image.rs /Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/peniko-0.6.1/src/style.rs /Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/peniko-0.6.1/src/impl_bytemuck.rs
+
+/Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/peniko-0.6.1/src/lib.rs:
+/Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/peniko-0.6.1/src/blend.rs:
+/Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/peniko-0.6.1/src/brush.rs:
+/Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/peniko-0.6.1/src/gradient.rs:
+/Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/peniko-0.6.1/src/image.rs:
+/Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/peniko-0.6.1/src/style.rs:
+/Users/caio/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/peniko-0.6.1/src/impl_bytemuck.rs:
