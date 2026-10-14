@@ -1,0 +1,9 @@
+eat-neg-imp-reflex
+look-imp
+eat-imp
+look-neg-you
+hear-neg-you
+know-neg-you
+look-reflex-you
+hear-neg-imp
+know-imp-reflex
